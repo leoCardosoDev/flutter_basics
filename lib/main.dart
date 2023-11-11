@@ -75,7 +75,5 @@ class _PerguntasAppState extends State<PerguntasApp> {
 }
 
 class PerguntasApp extends StatefulWidget {
-  _PerguntasAppState createState() {
-    return _PerguntasAppState();
-  }
+  _PerguntasAppState createState() => _PerguntasAppState();
 }
