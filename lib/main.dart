@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 import './questionario.dart';
 import './resultado.dart';
 
+class PerguntasApp extends StatefulWidget {
+  _PerguntasAppState createState() => _PerguntasAppState();
+}
+
 void main() => runApp(PerguntasApp());
 
 class _PerguntasAppState extends State<PerguntasApp> {
@@ -72,8 +76,4 @@ class _PerguntasAppState extends State<PerguntasApp> {
       ),
     );
   }
-}
-
-class PerguntasApp extends StatefulWidget {
-  _PerguntasAppState createState() => _PerguntasAppState();
 }
