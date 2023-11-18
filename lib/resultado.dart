@@ -11,7 +11,7 @@ class Resultado extends StatelessWidget {
     } else if (pontuacao < 16) {
       return 'Você é bom!';
     } else if (pontuacao < 20) {
-      return 'Você é bom!';
+      return 'Impressionante';
     } else {
       return 'Você está no nível Jedi';
     }
